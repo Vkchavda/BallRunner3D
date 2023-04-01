@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  header {
+    background-color: #ffa600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .game-info {
+    display: flex;
+    margin: 20px 0;
+    padding: 30px 40px;
+    background-color: rgb(26, 26, 26);
+    }
+    .screenshots{
+        display: flex;
+        margin-left: 80px;
+    }
+    .s1{
+        display: flex;
+        width: 500px;
+        height: 300px;
+        justify-content: space-between;
+        margin: 40px;
+    }
+    .s2{
+        display: flex;
+        width: 500px;
+        height: 300px;
+        justify-content: space-between;
+        margin: 40px;
+    }
+    .s3{
+        display: flex;
+        width: 500px;
+        height: 300px;
+        justify-content: space-between;
+        margin: 40px;
+    }
+    .logo{
+        width: 300px;
+        height: 300px;
+    }
+    .game-info img {
+    max-width: 400px;
+    margin-right: 40px;
+    }
+    
+    .game-info h2 {
+    margin: 0;
+    }
+    
+    .download-section {
+    text-align: left;
+    }
+    
+    .download-section h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    }
+    
+    .download-section p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 20px;
+    }
+    
+    .download-button {
+    background-color: #ff8800;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    }
+    
+    .download-button:hover {
+    background-color: #c7781d;
+    }
+    
+    .reviews-section {
+    margin-top: 40px;
+    }
+    
+    .reviews-section h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    }
+    
+    .reviews-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .reviews-section li {
+    display: flex;
+    margin-bottom: 20px;
+    }
+    
+    .reviews-section li img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    }
+    
+    .reviews-section li h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    }
+    
+    .reviews-section li p {
+    margin: 0;
+    }
+    
+    .view-all-reviews {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    }
+    
+    footer {
+    background-color: #ff8800;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    footer p {
+    margin: 0;
+    font-size: 14px;
+    }
+    .Description {
+        margin: 20px 0;
+        padding: 30px 40px;
+        background-color: #141414;
+    }
+    .Description h4{
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 600px){
+    
+    header {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    header h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    nav {
+    margin-top: 20px;
+    }
+    
+    nav ul {
+    flex-direction: column;
+    }
+    
+    nav li {
+    margin: 10px 0;
+    }
+    
+    .game-info {
+    flex-direction: column;
+    }
+    
+    .game-info img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+    .screenshots{
+        display: block;
+       padding: 10px;
+    }
+    .s1{
+    
+display: none;
+    
+    }
+    .s2{
+        
+        
+        display: none;
+    }
+    .s3{
+       
+display: none;
+        justify-content: space-between;
+    
+    }
+    }
